@@ -1,7 +1,11 @@
-#include <SFML/Graphics.hpp>
+#include "src/Game.hpp"
 
 int main()
 {
+	Game game;
+	game.run();
+
+	/*
 	sf::RenderWindow window(sf::VideoMode(640, 480), "SFML Application");
    	sf::CircleShape shape;
    	shape.setRadius(40.f);
@@ -19,4 +23,5 @@ int main()
    		window.draw(shape);
    		window.display();
    }
+   */
 }
